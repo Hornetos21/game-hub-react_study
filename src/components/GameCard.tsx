@@ -3,7 +3,6 @@ import { Game } from '../hooks/useGames'
 import PLatformIconList from './PLatformIconList'
 import CriticScore from './CriticScore'
 import getCroppedImageURL from '../services/image-url'
-import GameCardContainer from './GameCardContainer'
 
 interface Props {
   game: Game
