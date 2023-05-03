@@ -3,7 +3,7 @@ import { Box, Flex, Grid, GridItem, Show } from '@chakra-ui/react'
 import NavBar from './components/NavBar'
 import GameGrid from './components/GameGrid'
 import GenreList from './components/GenreList'
-import PLatformSelector from './components/PLatformSelector'
+import PlatformSelector from './components/PlatformSelector'
 import SortSelector from './components/SortSelector'
 import GameHeading from './components/GameHeading'
 
@@ -45,7 +45,7 @@ function App() {
           <GameHeading gameQuery={gameQuery} />
           <Flex marginBottom={5}>
             <Box marginRight={5}>
-              <PLatformSelector
+              <PlatformSelector
                 selectedPlatformId={gameQuery.platformId}
                 onSelectPlatform={(platform) =>
                   setGameQuery({ ...gameQuery, platformId: platform.id })

@@ -1,11 +1,11 @@
 import { HStack, Icon } from '@chakra-ui/react'
 import {
-  FaWindows,
-  FaPlaystation,
-  FaXbox,
+  FaAndroid,
   FaApple,
   FaLinux,
-  FaAndroid,
+  FaPlaystation,
+  FaWindows,
+  FaXbox,
 } from 'react-icons/fa'
 import { MdPhoneIphone } from 'react-icons/md'
 import { SiNintendo } from 'react-icons/si'
@@ -18,7 +18,7 @@ interface Props {
   platforms: Platform[]
 }
 
-const PLatformIconList = ({ platforms }: Props) => {
+const PlatformIconList = ({ platforms }: Props) => {
   const iconMap: { [key: string]: IconType } = {
     pc: FaWindows,
     playstation: FaPlaystation,
@@ -40,4 +40,4 @@ const PLatformIconList = ({ platforms }: Props) => {
   )
 }
 
-export default PLatformIconList
+export default PlatformIconList
