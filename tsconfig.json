@@ -7,7 +7,7 @@
     "rootDir": "./src",
 
     /* Bundler mode */
-    "moduleResolution": "Node",
+    "moduleResolution": "node16",
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
