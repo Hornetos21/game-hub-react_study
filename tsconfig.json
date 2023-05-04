@@ -2,12 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "ES6",
+    "module": "ESNext",
     "skipLibCheck": true,
     "rootDir": "./src",
 
     /* Bundler mode */
-    "moduleResolution": "node16",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
