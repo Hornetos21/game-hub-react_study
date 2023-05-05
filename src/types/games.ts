@@ -12,6 +12,8 @@ export interface Game extends IdName {
   parent_platforms: { platform: Platform }[]
   metacritic: number
   rating_top: number
+  slug: string
+  description_raw: string
 }
 
 export interface Genre extends IdName {
