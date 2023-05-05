@@ -21,8 +21,18 @@ export interface Publisher extends IdName {
   games_count: number
   image_background: string
 }
+export interface Trailer extends IdName {
+  preview: string
+  data: { 480: string; max: string }
+}
 export interface Genre extends IdName {
   image_background: string
+}
+export interface Screenshot {
+  height: number
+  width: number
+  id: number
+  image: string
 }
 
 export interface GameQuery {
