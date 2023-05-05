@@ -13,6 +13,13 @@ export interface Game extends IdName {
   rating_top: number
   slug: string
   description_raw: string
+  genres: Genre[]
+  publishers: Publisher[]
+}
+export interface Publisher extends IdName {
+  slug: string
+  games_count: number
+  image_background: string
 }
 export interface Genre extends IdName {
   image_background: string
