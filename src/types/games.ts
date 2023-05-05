@@ -6,7 +6,6 @@ interface IdName {
 export interface Platform extends IdName {
   slug: string
 }
-
 export interface Game extends IdName {
   background_image: string
   parent_platforms: { platform: Platform }[]
@@ -15,7 +14,6 @@ export interface Game extends IdName {
   slug: string
   description_raw: string
 }
-
 export interface Genre extends IdName {
   image_background: string
 }
